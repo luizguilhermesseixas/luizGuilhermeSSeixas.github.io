@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(33, 149, 177);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(33, 149, 177);
+    font-size: 2em;
+
+}
+
+p {
+    width: 50%;
+    color: rgb(188, 231, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(38, 43, 44);
+    font-size: 20px;
+}
+
+.listStyle {
+    background-color: rgb(83, 95, 91);
+    color:  rgb(188, 231, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    width: fit-content;
+    margin: 5px;
+    padding-left: 10px;
+    border: solid 2px rgb(33, 149, 177);
+    }
+.picture {
+    border-radius: 50%;
+    padding: 1em;
+    background-color: rgb(33, 149, 177);
+}
+
+.headerContents img, p {
+    display: inline-block;
+    }
+
+.headerContents p {
+    margin-left: 100px;
+    padding: 1em;
+    background-color: rgb(83, 95, 91);
+    border: solid 5px rgb(33, 149, 177);
+    position: absolute;
+
+}
+
+#atalho li {
+    display: inline-block;
+    min-width: 40px;
+}
+
+#atalho li a {
+    padding: 5px 10px;
+}
